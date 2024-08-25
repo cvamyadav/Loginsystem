@@ -1,0 +1,24 @@
+.errors{
+    display: none;
+
+}
+.errors.show{
+    display:block;
+    
+    background: rgba(216, 64, 64, 0.808);
+    border-radius: 1rem;
+    padding: 2px;
+}
+
+.form-group{
+    padding: 10px;
+    margin: 8px;
+}
+button{
+    margin-left: 20px;;
+    padding: 0;
+}
+
+.nextpage{
+    display: none;
+}

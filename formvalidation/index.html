@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
+
+</head>
+<body>
+  <div id="formcontainer">
+    <form action="thank-you.html" id="form">
+
+        <div class="errors">
+            <h3 class="error-title">Error</h3>
+            <ul class="error-list"></ul>
+        </div>
+        <div class="form-group">
+          <label for="username">Username</label><br>
+          <input type="text" id="username" name="username">  
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label><br>
+            <input type="text" id="password" name="password">  
+          </div>
+
+          
+        <div class="form-group">
+            <label for="passwordvalidation">Password Configuration</label><br>
+            <input type="text" id="passwordvalidation" name="passwordvalidation">  
+          </div>
+
+
+        <div class="form-group">
+            <input type="checkbox" id="agree">
+            <label for="agree">Agree To Terms</label>
+        </div>
+
+        <button class="button">Create Account</button>
+
+
+
+    </form>
+  </div> 
+  <div  id="html-linker"  class="nextpage">
+    <h3>Your form has been submitted</h3>
+    <a  href="form.html" class="link">BACK TO PREVIOUS</a>
+  </div>
+</body>
+</html>
